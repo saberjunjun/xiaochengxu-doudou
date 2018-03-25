@@ -1,0 +1,38 @@
+/*最外层*/
+.content {
+	padding: 0 30rpx;
+}
+
+/*标题*/
+.movie-title {
+	height: 50rpx;
+	line-height: 50rpx;
+}
+
+.movie-fl {
+	flex: 1;
+	text-align: left;
+	font-size: 40rpx;
+}
+
+.movie-fr {
+	flex: 1;
+	text-align: right;
+	font-size: 28rpx;
+	color: #42bd56;
+}
+
+
+/*分类标签*/
+.movie-link {
+	overflow: hidden;
+}
+
+.movie-link-box {
+	float: left;
+	width:50%;
+	font-size: 32rpx;
+	color: #42bd56;
+	padding: 30rpx 0;
+	border: 1px solid #e6e6e6;
+}

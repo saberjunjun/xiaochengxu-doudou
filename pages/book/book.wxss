@@ -1,0 +1,23 @@
+/* pages/book/book.wxss */
+
+.content {
+	padding: 0 30rpx;
+}
+
+.movie-title {
+	height: 50rpx;
+	line-height: 50rpx;
+}
+
+.movie-fl {
+	flex: 1;
+	text-align: left;
+	font-size: 40rpx;
+}
+
+.movie-fr {
+	flex: 1;
+	text-align: right;
+	font-size: 28rpx;
+	color: #42bd56;
+}

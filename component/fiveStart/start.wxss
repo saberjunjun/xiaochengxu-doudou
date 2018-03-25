@@ -1,0 +1,7 @@
+/* component/fiveStart.wxss */ 
+
+.star-five .star-img {
+	width: 30rpx;
+	height: 36rpx;
+	flex:1;
+}

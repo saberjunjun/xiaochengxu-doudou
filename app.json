@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/movie/movie",
+    "pages/broadcast/broadcast",
+    "pages/book/book",
+    "pages/person/person"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影",
+        "iconPath": "/picture/findDefault.png",
+        "selectedIconPath": "/picture/findAcitive.png"
+      },
+      {
+        "pagePath": "pages/book/book",
+        "text": "图书",
+        "iconPath": "/picture/tipDef.png",
+        "selectedIconPath": "/picture/tipAct.png"
+      },
+      {
+        "pagePath": "pages/broadcast/broadcast",
+        "text": "广播",
+        "iconPath": "/picture/aboutDef.png",
+        "selectedIconPath": "/picture/aboutAct.png"
+      },
+      {
+        "pagePath": "pages/person/person",
+        "text": "个人",
+        "iconPath": "/picture/aboutDef.png",
+        "selectedIconPath": "/picture/aboutAct.png"
+      }
+    ],
+    "color": "#333",
+    "selectedColor": "#FF4040",
+    "backgroundColor": "#EAEAEA"
+  }
+}

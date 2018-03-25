@@ -1,0 +1,44 @@
+<view class="content">
+	<!-- 影院热映标题 -->
+	<view class="movie-title flex">
+		<text class="movie-fl">影院热映</text>
+		<text class="movie-fr">更多</text>
+	</view>
+
+	<!-- 滚动图 -->
+	<scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+      	<view style="background-color: black;height: 100rpx;"></view>
+      	<view style="background-color: red;height: 100rpx;"></view>
+      	<view style="background-color: green;height: 100rpx;"></view>
+    </scroll-view>
+
+	<!-- 豆瓣TOP250标题 -->
+	<view class="movie-title flex">
+		<text class="movie-fl">豆瓣TOP250</text>
+		<text class="movie-fr">更多</text>
+	</view>
+
+	<!-- 滚动图 -->
+	<scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+      	<view id="demo1" class="scroll-view-item_H demo-text-1"></view>
+      	<view id="demo2"  class="scroll-view-item_H demo-text-2"></view>
+      	<view id="demo3" class="scroll-view-item_H demo-text-3"></view>
+    </scroll-view>
+
+
+	<!-- 滚动标签 -->
+	<scroll-view class="scroll-view_H" scroll-x="true" bindscroll="scroll" style="width: 100%">
+      	<view id="demo1" class="scroll-view-item_H demo-text-1"></view>
+      	<view id="demo2"  class="scroll-view-item_H demo-text-2"></view>
+      	<view id="demo3" class="scroll-view-item_H demo-text-3"></view>
+    </scroll-view>
+
+
+	<!-- 分类标签 -->
+	<view class="movie-link">
+		<block wx:for="{{link}}">
+			<view class="movie-link-box">{{item}}</view>
+		</block>
+	</view>
+
+</view>

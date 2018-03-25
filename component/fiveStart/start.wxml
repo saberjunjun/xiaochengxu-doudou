@@ -1,0 +1,11 @@
+<!--component/fiveStart.wxml-->
+<view class="star-five flex">
+	<block wx:for="{{arr1}}">
+		<image class='star-img' mode="aspectFit" src="/picture/zan1.png" alt=""></image>
+	</block>
+	<block wx:for="{{arr3}}">
+		<image class='star-img' mode="aspectFit" src="/picture/zan3.png" alt=""></image>
+	</block>
+	{{score}}
+</view>
+
